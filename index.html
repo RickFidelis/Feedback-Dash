@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+
+
+    <title>N-MultiGraficos</title>
+</head>
+<body>
+    
+    <header>
+        <h3>N-MultiGraficos</h3>
+        <div class="satisfacao" id="satisfacao-container">
+            <h4 id="tituloSatisfacao">Os clientes estão Satisfeitos!</h4>
+            <img src="" alt="nivel-satisfação" id="imgSatisfacao">
+        </div> 
+    </header>
+
+    <div class="graficos-container">
+        <div class="graficos">
+            <canvas class="graficosInterno" id="graficoProblemaSolucionado"></canvas>
+        </div>
+        <div class="graficos">
+            <canvas class="graficosInterno" id="graficoNotaAtendimento"></canvas>
+        </div>
+        <div class="graficos">
+            <canvas class="graficosInterno" id="graficoChanceRecomendar"></canvas>
+        </div>
+        <div class="graficos" id="graficoPalavrasContainer">
+            <canvas class="graficosInterno" id="graficoPalavras"></canvas>
+        </div>
+    </div>
+
+    <div>
+        <h2 class="titulo">Opiniões dos clientes</h2>
+        <div class="detalhes-container" id="elemento-detalhes">
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script type="module" src="./scripts/script.js"></script>
+    <script type="module" src="./scripts/grath.js"></script>
+    <script type="module" src="./scripts/opinion.js"></script>
+
+
+</body>
+</html>

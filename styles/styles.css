@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    background-color: #f8f8ff;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    display: flex;
+}
+
+header h3 {
+    color: #009DE0;
+    background-color: #f8f8ff;
+    width: 60%;
+    height: auto;
+    margin: 2% auto 2% 6%;
+    font-size: 2rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    display: inline-block;
+}
+
+header .satisfacao {
+    display: flex;
+    height: auto;
+    margin: 2% auto;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 4px;  
+    padding: 3px;
+}
+
+.satisfacao h4 {
+    align-self: center;
+    margin-right: 20px;
+}
+
+.satisfacao img {
+    width: auto;
+    height: 5vh;
+}
+
+.imgGreat {
+    content:url(./img/emoji-smiler.png);
+    border-color:#1f97e7;
+}
+.titleGreat {
+    color: #1f97e7;
+}
+
+
+
+.imgGood {
+    content:url(./img/emoji-smile.png);
+    border-color:#1eb400;
+}
+.titleGood {
+    color: #1eb400;
+}
+
+
+.imgNotSoGood {
+    content:url(./img/neutral-emoji.png);
+    border-color:#ffc400ee;
+}
+.titleNotSoGood {
+    color: #ffc400ee;
+}
+
+
+.imgBad {
+    content:url(./img/emoji-angry.png);
+    border-color:#ff2600;
+}
+.titleBad {
+    color: #ff2600;
+}
+
+/* Seção de graficos */
+
+.graficos-container {
+    background-color: #007ac0;
+    width: 85%;
+    height: 650px;
+    margin: 6% auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-flow: row;
+    grid-column-gap: 30px;
+    border-radius: 25px;
+    padding: 30px;
+}
+
+.graficos {
+    background-color: #ffffff;
+    width: 100%;
+    height: 90%;
+    margin-top: 4%;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.graficosInterno {
+    height: auto;
+    margin: auto;
+    width: 95%;
+}
+
+#graficoProblemaSolucionado {
+    padding: 5px;
+}
+
+#graficoPalavrasContainer{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin: auto;
+    height: 350px;
+}
+
+
+/* seção de observações */
+
+.titulo {
+    color: #004b6b;
+    background-color: #f8f8ff;
+    width: 80%;
+    margin: auto;
+    margin-top: -25px;
+    font-size: 2rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.detalhes-container {
+    background-color: #0052cc;
+    width: 85%;
+    margin: 10px auto;
+    padding: 30px;
+    border-radius: 25px;
+}
+
+.detalhes-container .detalhes {
+    background-color: #f8f8ff;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.detalhes h3 {
+    color: #002357;
+    font-family: "Rubik", sans-serif;
+}
+
+.detalhes p {
+    color: #020f22;
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    margin-top: 2px;
+}
